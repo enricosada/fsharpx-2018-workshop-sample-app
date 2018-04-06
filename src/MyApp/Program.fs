@@ -6,7 +6,7 @@ let main argv =
     let c = MyLibrary.helloMessage "F# eXchange"
     printfn "%s" c
 
-    MyLibrary.downloadFrom "http://fsharp.org/"
+    MyLibrary.downloadFrom "https://enricosada.github.io/fsharpx-2018-workshop/assets/hello.txt"
     |> Async.RunSynchronously
     |> printfn "%s"
 
