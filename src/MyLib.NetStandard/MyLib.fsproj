@@ -5,7 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="..\MyLib\AssemblyInfo.fs" />
     <Compile Include="..\MyLib\Library1.fs" />
   </ItemGroup>
 
