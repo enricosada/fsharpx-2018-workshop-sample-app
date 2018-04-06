@@ -5,8 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="AssemblyInfo.fs" />
-    <Compile Include="Library1.fs" />
+    <Compile Include="..\MyLib\AssemblyInfo.fs" />
+    <Compile Include="..\MyLib\Library1.fs" />
   </ItemGroup>
 
 </Project>
