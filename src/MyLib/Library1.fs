@@ -13,6 +13,7 @@ let downloadFrom url = async {
     //this is needed in .NET 4.5.2 because it use an old tls version in the example github website
     //ask Steffen Forkmann for a funny story about it 
     System.Net.ServicePointManager.SecurityProtocol <- System.Net.SecurityProtocolType.Tls12
+
     return! wc.AsyncDownloadString (Uri(url))
 #endif
 }
