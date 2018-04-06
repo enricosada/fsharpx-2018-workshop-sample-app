@@ -7,7 +7,7 @@
 
   <ItemGroup>
     <Compile Include="..\MyApp\Program.fs" />
-    <None Include="..\MyApp\App.config" />
+    <None Include="..\MyApp\App.config" Condition=" '$(TargetFramework)' != 'netcoreapp2.0' " />
   </ItemGroup>
 
   <ItemGroup>
